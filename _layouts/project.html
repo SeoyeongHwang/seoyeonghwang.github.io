@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<article class="project">
+  <h1>{{ page.title }}</h1>
+  {% if page.year or page.role %}
+    <p class="meta">
+      {% if page.year %}{{ page.year }}{% endif %}
+      {% if page.year and page.role %} · {% endif %}
+      {% if page.role %}{{ page.role }}{% endif %}
+    </p>
+  {% endif %}
+
+  {% if page.video %}
+    <div class="video">
+      <iframe src="{{ page.video }}" frameborder="0" allowfullscreen></iframe>
+    </div>
+  {% endif %}
+
+  {% if page.gallery %}
+    <div class="gallery">
+      {% for img in page.gallery %}
+        <img src="{{ img }}" alt="">
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  {{ content }}
+</article>
