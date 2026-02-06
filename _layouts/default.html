@@ -3,12 +3,33 @@
   <head>
     {% include head.html %}
   </head>
-  <body>
-    {% include nav.html %}
-    <main class="container">
-      {{ content }}
+
+  <body class="section-{{ page.section | default: 'home' }}
+               variant-{{ page.variant | default: 'light' }}
+               header-{{ page.header_style | default: 'simple' }}">
+    <a class="skip-link" href="#content">본문 바로가기</a>
+
+    <header class="site-header">
+      <div class="container">
+        {% include nav.html %}
+      </div>
+    </header>
+
+    <main id="content" class="site-main">
+      <div class="container">
+        {% if page.section != "home" %}
+          {% include section_header.html title=page.title style=page.header_style %}
+        {% endif %}
+        <div class="content">
+          {{ content }}
+        </div>
+      </div>
     </main>
-    {% include footer.html %}
-    <script src="/assets/js/main.js"></script>
+
+    <footer class="site-footer">
+      <div class="container">
+        {% include footer.html %}
+      </div>
+    </footer>
   </body>
 </html>

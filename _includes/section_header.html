@@ -1,0 +1,11 @@
+{% unless include.style == "none" %}
+  <header class="section-header section-header--{{ include.style | default: 'simple' }}">
+    <h1 class="section-title">{{ include.title }}</h1>
+
+    {% if include.style == "split" %}
+      <p class="section-subtitle">
+        {{ page.subtitle | default: site.description }}
+      </p>
+    {% endif %}
+  </header>
+{% endunless %}

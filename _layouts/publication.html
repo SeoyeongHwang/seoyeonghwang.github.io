@@ -1,0 +1,20 @@
+---
+layout: default
+section: publications
+variant: light
+header_style: none
+---
+<article class="publication">
+  <h1 class="publication-title">{{ page.title }}</h1>
+  <p class="publication-meta">
+    {% if page.venue %} {{ page.venue }}{% endif %}
+    {% if page.type %} · {{ page.type }}{% endif %}
+    {% if page.authors %}
+      · {{ page.authors | replace: "Seoyeong Hwang", "<span class='author-underline'>Seoyeong Hwang</span>" }}
+    {% endif %}
+  </p>
+  <h2>Abstract</h2>
+  <div class="publication-body">
+    {{ content }}
+  </div>
+</article>

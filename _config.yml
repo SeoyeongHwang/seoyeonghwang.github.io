@@ -33,12 +33,13 @@ github_username:  jekyll
 plugins:
   - jekyll-feed
 
-permalink: /writing/:year/:month/:day/:title/
-
 collections:
+  publications:
+    output: true
+    permalink: /publications/:name/
   projects:
     output: true
-    permalink: /work/:name/
+    permalink: /projects/:name/
 
 defaults:
   - scope:
@@ -47,14 +48,18 @@ defaults:
       layout: default
   - scope:
       path: ""
-      type: posts
+      type: publications
     values:
-      layout: post
+      layout: publication
+      section: publications
+      header_style: none
   - scope:
       path: ""
       type: projects
     values:
       layout: project
+      section: projects
+      header_style: none
 
 # Exclude from processing.
 # The following items will not be processed, by default.
