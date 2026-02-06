@@ -1,9 +1,12 @@
 ---
-title: "Slow Cartography"
-year: 2024
-role: "Research Lead"
-summary: "A speculative mapping toolkit for documenting emotional geographies."
+title: "UI/UX Development of an App Service Linked with Interpretation Content Analysis (STT) Applying a Holistic Customer Experience (CX) Design Methodology"
+period: 
+  start: 2022-10
+  end: 2023-02
+role: "UI/UX Design"
+summary: "This work was supported by BBB Korea."
 thumbnail: /assets/img/projects/p3-thumb.svg
+categories: [UI/UX Design]
 gallery:
   - /assets/img/projects/p3-1.svg
   - /assets/img/projects/p3-2.svg

@@ -1,9 +1,12 @@
 ---
-title: "Atlas Study Platform"
-year: 2025
-role: "Product Designer"
+title: "Establishment of an Integrated Platform for the Utilization of Design Industry Data"
+period: 
+  start: 2024-01
+  end: 2025-12
+role: "Research Assistant"
 summary: "A lightweight research workspace for synthesizing interviews and field notes."
 thumbnail: /assets/img/projects/p1-thumb.svg
+categories: [Research, Survey, Interview]
 gallery:
   - /assets/img/projects/p1-1.svg
   - /assets/img/projects/p1-2.svg

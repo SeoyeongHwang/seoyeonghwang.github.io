@@ -9,8 +9,10 @@ header_style: none
   <p class="publication-meta">
     {% if page.venue %} {{ page.venue }}{% endif %}
     {% if page.type %} · {{ page.type }}{% endif %}
+  </p>
+  <p class="publication-meta">
     {% if page.authors %}
-      · {{ page.authors | replace: "Seoyeong Hwang", "<span class='author-underline'>Seoyeong Hwang</span>" }}
+      {{ page.authors | replace: "Seoyeong Hwang", "<span class='author-underline'>Seoyeong Hwang</span>" }}
     {% endif %}
   </p>
   <h2>Abstract</h2>

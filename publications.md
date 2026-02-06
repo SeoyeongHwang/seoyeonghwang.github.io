@@ -8,7 +8,8 @@ subtitle: " "
 ---
 
 <div class="grid">
-  {% for publication in site.publications %}
+  {% assign publications = site.publications | sort: "date" | reverse %}
+  {% for publication in publications %}
     <a class="card publication-card" href="{{ publication.url }}">
       {% if publication.thumbnail %}<img src="{{ publication.thumbnail }}" alt="">{% endif %}
       {% if publication.venue %}<div class="eyebrow">{{ publication.venue }} · {{ publication.type | default: "Article" }}</div>{% endif %}

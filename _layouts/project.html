@@ -4,15 +4,27 @@ header_style: none
 ---
 <article class="project">
   <h1>{{ page.title }}</h1>
-  {% if page.year or page.role %}
+  {% if page.period or page.date or page.year or page.role %}
     <p class="meta">
-      {% if page.year %}{{ page.year }}{% endif %}
-      {% if page.year and page.role %} · {% endif %}
-      {% if page.role %}{{ page.role }}{% endif %}
+      {% if page.period and page.period.start %}
+        {{ page.period.start }}{% if page.period.end %}–{{ page.period.end }}{% endif %}
+      {% elsif page.date %}
+        {{ page.date }}
+      {% elsif page.year %}
+        {{ page.year }}
+      {% endif %}
+      {% if page.role %}
+        {% if page.period or page.date or page.year %} · {% endif %}
+        {{ page.role }}
+      {% endif %}
     </p>
   {% endif %}
 
   {% if page.summary %}<p class="lead">{{ page.summary }}</p>{% endif %}
+
+  {% if page.categories %}
+    <div class="meta">{{ page.categories | join: ", " }}</div>
+  {% endif %}
 
   {% if page.tags %}
     <div class="tags">

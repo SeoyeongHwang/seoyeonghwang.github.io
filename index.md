@@ -19,7 +19,8 @@ header_style: none
     <a class="more" href="/publications/">View all</a>
   </header>
   <div class="grid">
-    {% for publication in site.publications limit: 3 %}
+    {% assign publications = site.publications | sort: "date" | reverse %}
+    {% for publication in publications limit: 3 %}
       <a class="card" href="{{ publication.url }}">
         {% if publication.thumbnail %}<img src="{{ publication.thumbnail }}" alt="">{% endif %}
         {% if publication.venue %}<div class="eyebrow">{{ publication.venue }} · {{ publication.type | default: "Article" }}</div>{% endif %}
@@ -47,13 +48,27 @@ header_style: none
     <a class="more" href="/projects/">View all</a>
   </header>
   <div class="grid">
-    {% assign projects = site.projects | sort: "year" | reverse %}
+    {% assign projects = site.projects | sort: "date" | reverse %}
     {% for p in projects limit: 3 %}
       <a class="card" href="{{ p.url }}">
         {% if p.thumbnail %}<img src="{{ p.thumbnail }}" alt="">{% endif %}
-        <div class="eyebrow">{{ p.year }} · {{ p.role }}</div>
+        {% assign period_display = "" %}
+        {% if p.period and p.period.start %}
+          {% assign period_display = p.period.start %}
+          {% if p.period.end %}
+            {% assign period_display = period_display | append: "–" | append: p.period.end %}
+          {% endif %}
+        {% elsif p.date %}
+          {% assign period_display = p.date %}
+        {% elsif p.year %}
+          {% assign period_display = p.year %}
+        {% endif %}
+        {% if period_display != "" %}<div class="eyebrow">{{ period_display }}</div>{% endif %}
         <div class="title">{{ p.title }}</div>
         {% if p.summary %}<div class="summary">{{ p.summary }}</div>{% endif %}
+        {% if p.categories %}
+          <div class="meta">{{ p.categories | join: ", " }}</div>
+        {% endif %}
         {% if p.tags %}
           <div class="tags">
             {% for t in p.tags limit: 4 %}
