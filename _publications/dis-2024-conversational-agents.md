@@ -1,9 +1,12 @@
 ---
 title: "Conversational Agents as Catalysts for Critical Thinking: Challenging Design Fixation in Group Design"
-type: ""
-venue: "DIS 2024 Workshop"
 authors: "Soohwan Lee, Seoyeong Hwang, and Kyungho Lee"
+venue: "DIS 2024 Workshop"
+type: ""
+summary: "This workshop paper proposes LLM-based conversational agents that counter design fixation and groupthink by delivering clear, well-timed counterarguments in group design."
+doi: "https://arxiv.org/abs/2406.11125"
 thumbnail: /assets/img/publications/pub-5.png
+keywords: [design fixation, conversational agents, critical thinking, reliability, group, llm]
 tags: [research, group, decision-making]
 date: 2024-07-15
 ---

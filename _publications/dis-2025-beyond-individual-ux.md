@@ -1,9 +1,12 @@
 ---
 title: "Beyond Individual UX: Defining Group Experience(GX) as a NewParadigm for Group-centered AI"
-type: "Poster"
-venue: "DIS 2025 Companion"
 authors: "Soohwan Lee, Seoyeong Hwang, and Kyungho Lee"
+venue: "DIS 2025 Companion"
+type: "Poster"
+summary: "This provocation defines Group Experience (GX) and argues for Group-centered AI to evaluate and mediate collective dynamics beyond individual UX."
+doi: "https://doi.org/10.1145/3715668.3736348"
 thumbnail: /assets/img/publications/pub-8.png
+keywords: [human-centered AI, group experience, group-centered AI, socialpsychology, group dynamics]
 tags: [design, group, ux]
 date: 2025-11-02
 ---

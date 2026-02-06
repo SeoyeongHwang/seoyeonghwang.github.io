@@ -1,16 +1,18 @@
 ---
-title: "Building an End-to-End Speech Recognition Model for Active Seniors Using the KoSpeech Model"
+title: "KoSpeech"
+subtitle: "Building an End-to-End Speech Recognition Model for Active Seniors Using the KoSpeech Model"
+type: ""
+category: [Research Project]
+role: "Student Researcher"
+collaborators: ""
+client: ""
+summary: "This research was supported by the X-Corps Plus program of the National Research Foundation of Korea(NRF), funded by the Ministry of Science, ICT (No. 2021H1D8A306520712)."
+video: ""
+thumbnail: /assets/img/projects/p2-thumb.svg
+keywords: []
 period:
   start: 2023-03
   end: 2023-12
-role: "Student Researcher"
-summary: "This research was supported by the X-Corps Plus program of the National Research Foundation of Korea(NRF), funded by the Ministry of Science, ICT (No. 2021H1D8A306520712)."
-thumbnail: /assets/img/projects/p2-thumb.svg
-categories: [Research Project]
-gallery:
-  - /assets/img/projects/p2-1.svg
-  - /assets/img/projects/p2-2.svg
-  - /assets/img/projects/p2-3.svg
 tags: [experience, audio, museum]
 ---
 

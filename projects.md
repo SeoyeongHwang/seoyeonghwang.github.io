@@ -7,7 +7,7 @@ header_style: simple
 subtitle: "Selected design, research, and product work"
 ---
 
-{% assign projects = site.projects | sort: "date" | reverse %}
+{% assign projects = site.projects | sort: "period.start" | reverse %}
 <div class="grid">
   {% for p in projects %}
     <a class="card" href="{{ p.url }}">
@@ -26,8 +26,8 @@ subtitle: "Selected design, research, and product work"
       {% if period_display != "" %}<div class="eyebrow">{{ period_display }}</div>{% endif %}
       <div class="title">{{ p.title }}</div>
       {% if p.summary %}<div class="summary">{{ p.summary }}</div>{% endif %}
-      {% if p.categories %}
-        <div class="meta">{{ p.categories | join: ", " }}</div>
+      {% if p.category %}
+        <div class="meta">{{ p.category | join: ", " }}</div>
       {% endif %}
       {% if p.tags %}
         <div class="tags">

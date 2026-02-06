@@ -1,15 +1,18 @@
 ---
-title: "UI/UX Development of an App Service Linked with Interpretation Content Analysis (STT) Applying a Holistic Customer Experience (CX) Design Methodology"
-period: 
+title: "BBBK"
+subtitle: "UI/UX Development of an App Service Linked with Interpretation Content Analysis (STT) Applying a Holistic Customer Experience (CX) Design Methodology"
+type: ""
+category: [UI/UX Design]
+role: "UI/UX Design"
+collaborators: ""
+client: ""
+summary: "This work was supported by BBB Korea."
+video: ""
+thumbnail: /assets/img/projects/p3-thumb.svg
+keywords: []
+period:
   start: 2022-10
   end: 2023-02
-role: "UI/UX Design"
-summary: "This work was supported by BBB Korea."
-thumbnail: /assets/img/projects/p3-thumb.svg
-categories: [UI/UX Design]
-gallery:
-  - /assets/img/projects/p3-1.svg
-  - /assets/img/projects/p3-2.svg
 tags: [speculative, mapping, research]
 ---
 

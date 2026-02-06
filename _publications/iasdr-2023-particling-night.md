@@ -1,9 +1,12 @@
 ---
 title: "Particling Night: The Design of an Emerging Media Artwork as a Tool for Reflection on Superficiality of Social Media"
-type: "Short Paper"
-venue: "IASDR 2023"
 authors: "Seoyeong Hwang and Kyungho Lee"
+venue: "IASDR 2023"
+type: "Short Paper"
+summary: "The paper presents an interactive media artwork using speech-to-text and generative visuals to prompt reflection on social media relationships and superficiality."
+doi: "https://doi.org/10.21606/iasdr.2023.768"
 thumbnail: /assets/img/publications/pub-3.png
+keywords: [emerging media art, reflection, artificial intelligence, generative graphics]
 tags: [design, reflection, media art]
 date: 2023-11-02
 ---

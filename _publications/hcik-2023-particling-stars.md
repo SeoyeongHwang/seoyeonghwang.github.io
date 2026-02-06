@@ -1,9 +1,12 @@
 ---
 title: "Particling Stars at Night: Reflection on Digitally Remediated Relationships"
-type: "Creative Awards"
-venue: "HCIK 2023"
 authors: "Seoyeong Hwang and Kyungho Lee"
+venue: "HCIK 2023"
+type: "Creative Awards"
+summary: "디지털 사회관계망 속에서 연결과 단절을 성찰하도록 파티클과 음성 인터랙션을 활용한 미디어아트 작품을 제안한다."
+doi: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11229890&nodeId=NODE11229890&mobileYN=N&medaTypeCode=185005&isPDFSizeAllowed=true&locale=ko&foreignIpYn=N&articleTitle=%EB%B3%84+%ED%97%A4%EB%8A%94+%EB%B0%A4+%3A+%EC%B4%88%EA%B1%B0%EB%8C%80+%EC%86%8C%EC%85%9C+%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC+%EC%86%8D+%EA%B4%80%EA%B3%84%EB%A7%BA%EC%9D%8C%EC%97%90+%EB%8C%80%ED%95%9C+%EB%B0%98%EC%B6%94&articleTitleEn=Particling+Stars+at+Night%3A+Reflection+on+Digitally+Remediated+Relationships&voisId=VOIS00699961&voisName=PROCEEDINGS+OF+HCI+KOREA+2023+%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C+%EB%B0%9C%ED%91%9C+%EB%85%BC%EB%AC%B8%EC%A7%91&voisCnt=287&searchResultKey=%2FlMfWK6MWZi5N74t6Fqz8fDBWQfVMls%2BU4otj1Kf6aGdeXyZ7A%2FggQV3oOK2yQeG&language=ko_KR&hasTopBanner=true&nowDate=20250922_3&minify=.min&cdnUrl=https%3A%2F%2Fcdn.dbpia.co.kr%2Fstatic"
 thumbnail: /assets/img/publications/pub-2.png
+keywords: [이머징 미디어아트, 웹아트, 파티클, 소셜 네트워크, 반추]
 tags: [design, reflection, media art]
 date: 2023-02-02
 ---

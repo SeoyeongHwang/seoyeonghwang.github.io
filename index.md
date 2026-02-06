@@ -48,7 +48,7 @@ header_style: none
     <a class="more" href="/projects/">View all</a>
   </header>
   <div class="grid">
-    {% assign projects = site.projects | sort: "date" | reverse %}
+    {% assign projects = site.projects | sort: "period.start" | reverse %}
     {% for p in projects limit: 3 %}
       <a class="card" href="{{ p.url }}">
         {% if p.thumbnail %}<img src="{{ p.thumbnail }}" alt="">{% endif %}
@@ -66,8 +66,8 @@ header_style: none
         {% if period_display != "" %}<div class="eyebrow">{{ period_display }}</div>{% endif %}
         <div class="title">{{ p.title }}</div>
         {% if p.summary %}<div class="summary">{{ p.summary }}</div>{% endif %}
-        {% if p.categories %}
-          <div class="meta">{{ p.categories | join: ", " }}</div>
+        {% if p.category %}
+          <div class="meta">{{ p.category | join: ", " }}</div>
         {% endif %}
         {% if p.tags %}
           <div class="tags">

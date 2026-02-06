@@ -1,9 +1,12 @@
 ---
 title: "Conversational Agents as Catalysts for Critical Thinking: Challenging Social Influence in Group Decision-making"
-type: "Poster"
-venue: "CHI EA 2025"
 authors: "Soohwan Lee, Seoyeong Hwang, Dajung Kim, and Kyungho Lee"
+venue: "CHI EA 2025"
+type: "Poster"
+summary: "This poster reports an LLM-powered devil’s advocate agent that reduces social influence in group decision-making and improves psychological safety and satisfaction."
+doi: "https://doi.org/10.1145/3706599.3719792"
 thumbnail: /assets/img/publications/pub-7.png
+keywords: [group decision-making, conversational agents, critical thinking,social influence, llm]
 tags: [design, group, AMCC]
 date: 2025-05-02
 ---

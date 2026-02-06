@@ -1,9 +1,12 @@
 ---
 title: "Expanding the Design Space of Vision-based Interactive Systems for Group Dance Practice"
-type: "Full Paper"
-venue: "DIS 2024"
 authors: "Soohwan Lee, Seoyeong Hwang and Kyungho Lee"
+venue: "DIS 2024"
+type: "Full Paper"
+summary: "Based on studies with cheerleading troupes, this paper expands the design space for multi-user, vision-based dance practice systems that support feedback and group communication."
+doi: "https://doi.org/10.1145/3643834.3661568"
 thumbnail: /assets/img/publications/pub-4.png
+keywords: [Ofine group dance practice, Cheerleading, Group-level perfor-mance, Pose estimation, Group communication, Learning]
 tags: [design, group, vision-based]
 date: 2024-07-05
 ---

@@ -1,9 +1,12 @@
 ---
 title: "Amplifying Minority Voices: AI-Mediated Devil's Advocate System for Inclusive Group Decision-Making"
-type: "Poster"
-venue: "IUI 2025 Companion"
 authors: "Soohwan Lee, Mingyu Kim, Seoyeong Hwang, Dajung Kim, and Kyungho Lee"
+venue: "IUI 2025 Companion"
+type: "Poster"
+summary: "This poster presents an AI-mediated devil’s advocate system that amplifies minority viewpoints anonymously to improve inclusivity in power-imbalanced group decisions."
+doi: "https://doi.org/10.1145/3708557.3716334"
 thumbnail: /assets/img/publications/pub-6.png
+keywords: [AI-mediated Communication, AI-assisted Decision-making, GroupDynamics, Social Influence, Compliance, LLM]
 tags: [design, group, AMCC]
 date: 2025-01-02
 ---
